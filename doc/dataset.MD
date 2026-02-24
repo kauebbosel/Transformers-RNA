@@ -1,3 +1,0 @@
-O dataset original possui 50.000 reviews. Para viabilizar treinamento local em tempo reduzido, foi utilizada uma amostragem balanceada mantendo proporcionalidade estatística (positivos e negativos) e limitando o comprimento das sequências para controle computacional.
-
-Em prepare_dataset é realizado a redução do dataset e o pré-processamento e tokenização. A ideia é não ser salvo em uma variável ou arquivo, mas por enquanto está sendo salvo em "processed_train.pt", mas também na memória da classe dataset no método __getitem__() e é retornado como tensores no DataLoader ou quando o dataset é acessado.
