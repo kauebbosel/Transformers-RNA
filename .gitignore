@@ -1,0 +1,4 @@
+data/aclImdb/test
+data/aclImdb/train
+*.pt
+.vscode
