@@ -1,4 +1,6 @@
-data/aclImdb/test
-data/aclImdb/train
+data/aclImdb
+#data/aclImdb/train
 *.pt
 .vscode
+__pycache__/
+*.pyc
