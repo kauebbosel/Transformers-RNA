@@ -187,8 +187,6 @@ Ele:
 - Empilha todos os `input_ids` e `labels`.
 - Salva em `data/processed_train.pt`.
 
-Se você não usa esse arquivo `.pt` em nenhum fluxo, pode optar por ignorar `main.py` ou removê-lo.
-
 ## Funcionamento das principais classes e fluxo
 
 ### `src/data/dataset.py`
