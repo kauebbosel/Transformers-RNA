@@ -1,0 +1,1 @@
+python -m scripts.train --train-samples 2000 --test-samples 500 --epochs 20 --patience 5
